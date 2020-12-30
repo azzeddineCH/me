@@ -7,7 +7,7 @@ const experiences = [
     period: "July 2020 - Present",
     place: "Tunisia",
     work: ["Working on DeepPCB™, AI based tool for PCB routing"],
-    tools: ["Tensoflow", "Python", "Golang", "Docker"],
+    tools: ["Tensorflow", "Python", "Golang", "Docker"],
   },
   {
     company: "Systems Design Methods Laboratory (LMCS)",
