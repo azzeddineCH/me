@@ -11,7 +11,7 @@ export default function Body() {
       <Blogs />
       <Highlights />
       <div class={"text-opacity-25 mt-12"}>
-        <h1>&copy; Azzeddine CHENINE, 2020</h1>
+        <h1>&copy; Azzeddine CHENINE, 2021</h1>
       </div>
     </div>
   );
