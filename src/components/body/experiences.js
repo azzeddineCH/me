@@ -3,7 +3,7 @@ import Experience from "./experince";
 const experiences = [
   {
     company: "InstaDeep",
-    position: "AI Software Engineer",
+    position: "AI Research Engineer",
     period: "July 2020 - Present",
     place: "Tunisia",
     work: ["Working on DeepPCB™, AI based tool for PCB routing"],

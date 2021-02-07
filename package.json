@@ -1,7 +1,8 @@
 {
-  "name": "my-app",
+  "name": "me",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://azzeddineCH.github.io/me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -22,7 +23,9 @@
     "build": "npm run watch:css && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "watch:css": "postcss src/tailwind.css -o src/main.css"
+    "watch:css": "postcss src/tailwind.css -o src/main.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
