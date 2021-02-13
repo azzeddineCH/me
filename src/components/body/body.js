@@ -2,6 +2,7 @@ import About from "./about";
 import Blogs from "./blogs";
 import Experiences from "./experiences";
 import Highlights from "./highlights";
+import Presentations from "./presentations";
 
 export default function Body() {
   return (
@@ -9,6 +10,7 @@ export default function Body() {
       <About />
       <Experiences />
       <Blogs />
+      <Presentations />
       <Highlights />
       <div class={"text-opacity-25 mt-12"}>
         <h1>&copy; Azzeddine CHENINE, 2021</h1>
